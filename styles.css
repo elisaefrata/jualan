@@ -130,3 +130,93 @@ footer {
 footer p {
   font-size: 0.9rem;
 }
+
+/* Responsiveness */
+
+/* Untuk perangkat dengan layar kurang dari 1024px (tablet) */
+@media (max-width: 1024px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  #products h2,
+  #testimonials h2 {
+    font-size: 2rem;
+  }
+
+  .product-box,
+  .testimonial-box {
+    width: 45%;
+  }
+}
+
+/* Untuk perangkat dengan layar kurang dari 768px (ponsel besar/tablet kecil) */
+@media (max-width: 768px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header .btn {
+    padding: 8px 20px;
+  }
+
+  .product-box,
+  .testimonial-box {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  #products h2,
+  #testimonials h2 {
+    font-size: 1.8rem;
+  }
+
+  .product-box h3,
+  .testimonial-box h4 {
+    font-size: 1.3rem;
+  }
+
+  .product-box p,
+  .testimonial-box p {
+    font-size: 1rem;
+  }
+}
+
+/* Untuk perangkat dengan layar kurang dari 480px (ponsel kecil) */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header p {
+    font-size: 0.9rem;
+  }
+
+  header .btn {
+    padding: 6px 15px;
+    font-size: 0.9rem;
+  }
+
+  #products h2,
+  #testimonials h2 {
+    font-size: 1.5rem;
+  }
+
+  .product-box h3,
+  .testimonial-box h4 {
+    font-size: 1.2rem;
+  }
+
+  .product-box p,
+  .testimonial-box p {
+    font-size: 0.9rem;
+  }
+}
